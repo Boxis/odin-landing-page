@@ -1,0 +1,52 @@
+* {
+    border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    padding: 0 100px;
+    font-size: 24px;
+    color: #f9faf8;
+    background-color: #1f2937;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 16px;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+    color: #E5E7EB;
+    background-color: #1f2937;
+    font-size: 18px;
+}
+
+p {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+#bowl-filled-with-healthy-foods {
+    width: auto;
+    max-height: 400px;
+    transform:rotate(90deg);
+}
+
+button {
+    background-color: #3882f6;
+    color: #f9faf8;
+}

@@ -10,3 +10,7 @@ It follows the design from the images below.
 <img src="02.png" alt="Color and Fonts">
 
 
+## Images Used
+Photo by Larissa Deruzzi: https://www.pexels.com/photo/bowl-filled-with-healthy-foods-6546181/
+
+
