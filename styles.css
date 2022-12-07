@@ -1,6 +1,6 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     display: flex;
@@ -24,6 +24,11 @@ ul {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
@@ -41,7 +46,7 @@ p {
 }
 
 #bowl-filled-with-healthy-foods {
-    width: auto;
+    max-width: auto;
     max-height: 400px;
     transform:rotate(90deg);
 }
@@ -49,4 +54,124 @@ p {
 button {
     background-color: #3882f6;
     color: #f9faf8;
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 5px 20px;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin: 32px;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.img-text-grp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 32px;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 165px;
+}
+
+#lonely-man,
+#sloth,
+#plant,
+#watermelon {
+    width: inherit;
+    height: auto;
+    border-radius: 7%;
+}
+
+.img-text-grp > p {
+    display: flex;
+    flex-wrap: wrap;
+    width: initial;
+    font-size: 18px;
+}
+
+.flex-quotes {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: lighter;
+    background-color: #E5E7EB;
+    padding: 100px;
+    flex-basis: auto;
+}
+
+.flex-quotes > p {
+    margin: 0 100px;
+}
+
+cite {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    margin: 0 100px;
+}
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-section {
+    display: flex;
+    background-color: #3882f6;
+    margin: 50px;
+    padding: 25px 150px;
+    border-radius: 8px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.left  > p, h2 {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+h2 {
+    font-size: large;
+}
+
+#call-button {
+    display: flex;
+    height: 30px;
+    border: 2px solid white;
+    margin: 0 32px;
+}
+
+#footer {
+    display: flex;
+    background-color: #1f2937;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
